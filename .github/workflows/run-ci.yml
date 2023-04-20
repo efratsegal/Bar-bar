@@ -2,7 +2,8 @@
 name: CI
 
 on:
-  push:
+#  push:
+commit:
     branches:
       - crawler
       - har-file

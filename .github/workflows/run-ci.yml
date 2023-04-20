@@ -1,15 +1,14 @@
 name: CI
 
 on:
-commit:
+  push:
     branches:
       - crawler
       - har-file
       - swagger
       - brokencrystals
-      - codescan
   pull_request:
-    branches: [codescan]
+    branches: [main]
   schedule:
     - cron: "0 0 * * THU"
 

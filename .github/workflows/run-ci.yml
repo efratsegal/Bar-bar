@@ -1,8 +1,6 @@
-#original from example-actions
 name: CI
 
 on:
-#  push:
 commit:
     branches:
       - crawler
